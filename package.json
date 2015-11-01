@@ -1,0 +1,29 @@
+{
+  "name": "node-quickbooks-api-sample",
+  "version": "0.0.1",
+  "description": "Express application for nodejs sample for Quickbooks V3 APIs.",
+  "main": "app.js",
+  "keywords": [
+    "Intuit",
+    "QuickBooks",
+    "Developer"
+  ],
+  "author": "Vamsi V",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "0.7.2",
+    "express": "3.2.4",
+    "moment": "^2.8.2",
+    "nedb": "^1.1.2",
+    "node-quickbooks": "1.0.17",
+    "node-uuid": "^1.4.1",
+    "querystring": "0.2.0",
+    "request": "2.39.0",
+    "request-debug": "0.0.1",
+    "underscore": "1.6.0",
+    "util": "0.10.3"
+  },
+  "directories": {
+    "views": "views"
+  }
+}
