@@ -23,11 +23,11 @@ http.createServer(app).listen(app.get('port'), function() {
 
 
 // INSERT YOUR CONSUMER_KEY AND CONSUMER_SECRET HERE
-//If you use development tokens, set the 'sandbox' flag to 'false' while creating quickbooks object below
+//If you use development tokens, set the 'sandbox' flag to 'true' while creating quickbooks object below
 //If you use production tokens, set the 'sandbox' flag to 'false' while creating quickbooks object below
 
-var consumerKey    = 'qyprdT3em8tvj37G2cltvX7OuwQkHf',
-    consumerSecret = 'LxggmWcgM5JxohmSfLSosivrST1KwMKPQnm7SDLc'
+var consumerKey    = '',
+    consumerSecret = ''
 
 //using nedb as a in memory datastore to store oauth tokens
 var Datastore = require('nedb');
